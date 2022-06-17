@@ -1,0 +1,78 @@
+.form__title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+.form__description {
+    font-family: "Raleway";
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.form__input {
+    width: 255px;
+    height: 50px;
+    margin-left: 30px;
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.2;
+    border: none;
+
+}
+
+.form__warning {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #e7e7e7;
+}
+
+.form__btn {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 255px;
+    height: 50px;
+    background: #D4C17F;
+    border: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.form__content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+
+}
+
+
+.form__left {
+    max-width: 50%;
+
+}
+
+.form__warning {
+    width: 255px;
+    margin-left: 30px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.form {
+    padding: 180px 0;
+    background: url(../img/form.png);
+    background-size: cover;
+}
+
+.form__right {
+    display: flex;
+}
