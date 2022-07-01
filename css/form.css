@@ -1,49 +1,50 @@
 .form__title {
-    font-weight: 700;
-    font-size: 36px;
-    color: #D4C17F;
+font-weight: 700;
+font-size: 36px;
+color: #D4C17F;
 }
 
-.form__description {
-    font-family: "Raleway";
-    line-height: 24px;
+.form__description { 
+     font-family: 'Raleway';
+     line-height: 24px;
     font-weight: 400;
     margin-top: 50px;
-    font-size: 14px;
+    font-size: 14px; 
     color: #ffffff;
 }
-
-.form__input {
+.form__input  {
     width: 255px;
     height: 50px;
     margin-left: 30px;
     text-align: center;
-    background: #ffffff;
+    background: #FFFFFF;
     opacity: 0.2;
     border: none;
-
 }
 
 .form__warning {
-    font-family: "Raleway";
-    font-weight: 400;
-    font-size: 13px;
-    text-align: center;
-    color: #e7e7e7;
+  font-family: 'Raleway';
+font-weight: 400;
+font-size: 13px;
+text-align: center;
+color: #E7E7E7;
 }
 
 .form__btn {
-    margin-top: 35px;
-    margin-left: 35px;
-    width: 255px;
-    height: 50px;
-    background: #D4C17F;
-    border: none;
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    color: #ffffff;
+
+margin: top 35px;
+margin-left: 35px;
+width: 255px;
+height: 50px;
+background: #D4C17F;
+border: none;
+font-family:"Raleway";
+font-weight: 700;
+font-size: 16px;
+
+text-align: center;
+
+color: #ffffff;
 }
 
 .form__content {
@@ -55,9 +56,9 @@
 }
 
 
-.form__left {
-    max-width: 50%;
 
+.form__left {  
+ width: 540px;
 }
 
 .form__warning {
@@ -68,11 +69,17 @@
 }
 
 .form {
-    padding: 180px 0;
-    background: url(../img/form.png);
-    background-size: cover;
+
+  padding:180px 0 ;
+ background: url(../img/form.png);
+ background-size: cover;
+
 }
 
 .form__right {
+    display: flex;
+   
+}
+.form__bottom {
     display: flex;
 }

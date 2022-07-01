@@ -1,23 +1,6 @@
 .footer__content {
-    font-family: 'Raleway';
-display: flex;
-justify-content: space-between;
-color: #FFFFFF;
-}
-.footer__list {
-   list-style: none;
+    height: 272px;
+    background:#2D343C;
 }
 
     
-
-
-ul {
-    list-style: none;
-}
-
-.footer__icon {
-  margin-left:  40px;
-}
-.footer {
-  background: #2D343C;
-}

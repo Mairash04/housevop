@@ -1,0 +1,40 @@
+.hero__title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color:#D4C17F;
+    width: 556px;
+    margin: 0 auto;
+
+} 
+.hero__scroll {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+.hero__bottom {
+    display: flex;
+    justify-content: center;
+
+}
+.hero__info {
+  margin: 0 50px;
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+
+}
+.hero {
+    background: url("../img/bg.png")center;
+    padding-top: 296px;
+    
+    padding-bottom: 74px;
+}
+.hero__icon {
+    margin-right: 16px;
+}

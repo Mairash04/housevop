@@ -1,0 +1,51 @@
+.room__title {
+    font-weight: 700;
+    font-size: 36px;
+    color:#d4c17f;
+    margin-bottom: 100px;
+}
+
+.room__name {
+    font-family:"Raleway";
+    font-weight: 400;
+    font-size: 24px;
+    color:#FFFFFF;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    
+    margin: 0;
+
+}
+
+
+.room__name--flex {
+    font-family:"Raleway";
+    font-weight: 400;
+    font-size: 24px;
+    color:#FFFFFF; 
+
+}
+
+
+.room__box {
+    position: relative;
+    margin-right: 15px;
+}
+
+.room__box--flex {
+    background:url(../img/room2.png);
+    width: 535px;
+    height: 320px;
+     display: flex;  
+     align-items: flex-end;
+     padding: 50px;
+     box-sizing: border-box;
+     margin-left: 15px;
+    
+}
+
+.room__content {
+    display: flex;
+    flex-wrap: wrap;
+}
