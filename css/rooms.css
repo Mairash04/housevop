@@ -1,0 +1,28 @@
+.rooms__title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  color: #d4c17f;
+  margin-bottom: 100px;
+}
+.rooms__name {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  margin: 0;
+}
+
+.rooms__box {
+  position: relative;
+  margin: 30px 20px 0 0;
+
+}
+
+.rooms__content {
+  display: flex;
+  flex-wrap: wrap;
+}

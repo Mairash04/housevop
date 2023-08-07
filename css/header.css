@@ -1,0 +1,19 @@
+header {
+  position: absolute;
+  width: 100%;
+  top: 30px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  list-style: none;
+  display: flex;
+  font-family: "Raleway";
+  color: #fff;
+}
+li {
+  margin-left: 40px;
+}
